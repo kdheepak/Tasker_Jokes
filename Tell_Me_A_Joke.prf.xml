@@ -1,7 +1,7 @@
 <TaskerData sr="" dvi="1" tv="4.5u1m">
 	<Profile sr="prof3" ve="2">
 		<cdate>1409932242948</cdate>
-		<edate>1417390126167</edate>
+		<edate>1417390486243</edate>
 		<id>3</id>
 		<mid0>76</mid0>
 		<nme>Tell Me A Joke</nme>
@@ -86,7 +86,7 @@ All recognized commands without filter
 	</Profile>
 	<Task sr="task76">
 		<cdate>1409889824464</cdate>
-		<edate>1417390126167</edate>
+		<edate>1417390486243</edate>
 		<id>76</id>
 		<nme>JokeTeller_JSON</nme>
 		<pri>10</pri>
@@ -127,6 +127,26 @@ var joketitle = arr.data.children[randomnumber].data.title</Str>
 			<Str sr="arg0" ve="3">%joketitle
 %punchline</Str>
 			<Int sr="arg1" val="1"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>559</code>
+			<Str sr="arg0" ve="3">%joketitle
+
+%punchline</Str>
+			<Str sr="arg1" ve="3">default:default</Str>
+			<Int sr="arg2" val="3"/>
+			<Int sr="arg3" val="5"/>
+			<Int sr="arg4" val="5"/>
+			<Int sr="arg5" val="1"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>105</code>
+			<Str sr="arg0" ve="3">%joketitle
+
+%punchline</Str>
+			<Int sr="arg1" val="0"/>
 		</Action>
 	</Task>
 </TaskerData>
